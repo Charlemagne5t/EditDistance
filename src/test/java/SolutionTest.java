@@ -18,4 +18,13 @@ public class SolutionTest {
         int output = 5;
         Assert.assertEquals(output, new Solution().minDistance(word1, word2));
     }
+
+    @Test
+    public void minDistanceTest3() {
+        String word1 = "a";
+        String word2 = "b";
+        int output = 1;
+        Assert.assertEquals(output, new Solution().minDistance(word1, word2));
+    }
+
 }
