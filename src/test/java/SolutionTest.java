@@ -26,5 +26,11 @@ public class SolutionTest {
         int output = 1;
         Assert.assertEquals(output, new Solution().minDistance(word1, word2));
     }
-
+    @Test
+    public void minDistanceTest4() {
+        String word1 = "dinitrophenylhydrazine";
+        String word2 = "acetylphenylhydrazine";
+        int output = 6;
+        Assert.assertEquals(output, new Solution().minDistance(word1, word2));
+    }
 }
